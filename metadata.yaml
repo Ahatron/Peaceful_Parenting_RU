@@ -1,0 +1,27 @@
+﻿---
+title: "Ненасильственное Воспитание. Часть 3: Доказательство"
+subtitle: "Мораль, психология и наука об этическом воспитании детей"
+subject: "Этическое воспитание детей"
+description: "Книга о мирном воспитании на основе науки, психологии и морали"
+author:
+  - Stefan Molyneux, MA
+keywords: [parenting, peaceful parenting, child abuse, ACEs, non-aggression]
+translator: "Ахат"
+#cover-image: "cover.jpeg"         
+lang: ru
+book: true
+classoption: oneside
+geometry:
+  - top=2.2cm
+  - bottom=2.2cm
+  - left=2.5cm
+  - right=2.5cm
+titlepage: true
+toc: true
+toc-own-page: true                 
+toc-depth: 3
+
+numbersections: false
+chapters: true                    
+secnumdepth: 3
+---

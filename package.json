@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "build":"ls Part-3-Evidence/*.md | sort -V | xargs -I {} sh -c 'cat \"{}\" && echo \"\n\n\"' > input_Part3.md",
+        "path-fix": "sed -i 's|../images|./images|g' input_Part3.md",
+        "create-pdf": "pandoc input_Part3.md --template=eisvogel.latex --metadata-file=metadata.yaml --pdf-engine=xelatex  -o Peaceful_Parenting_Part3.pdf"
+    }
+}
